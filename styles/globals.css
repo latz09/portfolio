@@ -1,17 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-
-
-
-
-
-
-
-
-
+@layer components {
+	.nav-link {
+		@apply bg-gray-800 px-2 py-1 rounded text-gray-400 cursor-pointer hover:bg-gray-900 text-center text-sm sm:text-base border-2 border-gray-700 shadow-md;
+	}
+}
 
 /* html,
 body {
