@@ -2,29 +2,27 @@ import Link from 'next/link';
 
 const ShortIntro = () => {
 	return (
-		<div className='tracking-widest text-sm font-thin text-center text-white  sm:text-base xs:m-5 sm:m-2'>
-			<p>
-				I am a self taught
-				<span className='font-semibold text-gray-300'> Javascript </span>
-				programmer living in the Twin Cities who has been grinding and learning
-				for the past two years. In that time I have immersed myself in everything web
-				development.
-			</p>
-			<p className='pt-2'>
+		<div className='tracking-widest text-xs text-justify sm:text-base xs:m-5 sm:m-2'>
+			{/* <p className="prose">
+				Self taught
+				<span className='font-semibold'> Javascript </span>
+				web developer living in the Twin Cities.
+			</p> */}
+			{/* <p className=''>
 				My focuses have been
-				<span className='font-semibold text-gray-300'> REACT</span>,
-				<span className='font-semibold text-gray-300'> NextJS</span>,
-				<span className='font-semibold text-gray-300'> TailwindCSS</span> and
-				<span className='font-semibold text-gray-300'> MongoDB</span>.
+				<span className='font-semibold'> REACT</span>,
+				<span className='font-semibold '> NextJS</span>,
+				<span className='font-semibold '> TailwindCSS</span> and
+				<span className='font-semibold '> MongoDB</span>.
 			</p>
-			<p className='pt-5'>
+			<p className=''>
 				Check out my latest project{' '}
 				<Link href='/about'>
-					<a className='font-semibold tracking-widest text-gray-100 bg-gray-800 rounded-full p-2 shadow shadow-gray-700 hover:bg-gray-700'>
+					<a className='font-bold tracking-widest  bg-cyan-100 text-black  rounded-full p-2 shadow shadow-gray-700 hover:bg-cyan-200'>
 						Here
 					</a>
 				</Link>
-			</p>
+			</p> */}
 		</div>
 	);
 };

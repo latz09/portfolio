@@ -11,23 +11,23 @@ const Languages = () => {
 	return (
 		<div className="pt-4">
 			<ul className='text-2xl flex justify-center space-x-6'>
-				<li className='bg-yellow-400 text-black p-1 rounded'>
+				<li className='text-gray-800 my-svgs'>
 					<IoLogoJavascript />
 				</li>
-				<li className='bg-gray-100 text-gray-900 p-1 rounded'>
+				<li className='text-gray-900 my-svgs'>
 					<SiNextdotjs />
 				</li>
 
-				<li className='text-cyan-900 bg-gray-100 p-1 rounded'>
+				<li className='text-cyan-900 my-svgs'>
 					<FaReact />
 				</li>
-				<li className='text-blue-500 bg-gray-100 p-1 rounded'>
+				<li className='text-blue-500 my-svgs'>
 					<SiTailwindcss />
 				</li>
-				<li className='text-green-500 bg-gray-100 p-1 rounded'>
+				<li className='text-green-600 my-svgs'>
 					<SiMongodb />
 				</li>
-				<li className='bg-gray-100 text-gray-900 p-1 rounded'>
+				<li className='bg-gray-300 my-svgs'>
 					<AiFillGithub />
 				</li>
 			</ul>

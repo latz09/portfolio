@@ -1,15 +1,15 @@
 import Head from 'next/head';
 
-const AboutPage = () => {
+const MyProjects = () => {
 	return (
 		<div>
+			
 			<Head>
-				<title>Jordan Latz - More about me -</title>
+				<title>Jordan Latz - My Projects -</title>
 				<meta name='description' content='Find a great programmer here' />
 			</Head>
-			about me
 		</div>
 	);
 };
 
-export default AboutPage;
+export default MyProjects;

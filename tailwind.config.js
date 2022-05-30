@@ -6,9 +6,9 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				Montserrat: ['Montserrat', 'sans-serif']
-			}
+				Montserrat: ['Montserrat', 'sans-serif'],
+			},
 		},
 	},
-	plugins: [],
+	plugins: [require('@tailwindcss/typography')],
 };

@@ -1,15 +1,18 @@
 import Head from 'next/head';
 
-const AboutPage = () => {
+const MyResume = () => {
 	return (
 		<div>
+		
 			<Head>
-				<title>Jordan Latz - More about me -</title>
+				<title>Jordan Latz - My Resume -</title>
 				<meta name='description' content='Find a great programmer here' />
 			</Head>
-			about me
 		</div>
 	);
 };
 
-export default AboutPage;
+export default MyResume;
+<div>
+	<h1>Resume page</h1>
+</div>;
