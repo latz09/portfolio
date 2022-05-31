@@ -6,8 +6,8 @@ const NavLinks = () => {
 			<Link href='/'>
 				<li className='nav-link'>Home</li>
 			</Link>
-			<Link href='/about'>
-				<li className='nav-link'>About Me</li>
+			<Link href='/my_story'>
+				<li className='nav-link'>My Story</li>
 			</Link>
 			<Link href='/contact'>
 				<li className='nav-link'>Contact</li>

@@ -8,7 +8,7 @@ const WorkExperienceItem = ({
 	date,
 }) => {
 	return (
-		<div className='bg-gray-300 py-2 my-2 shadow-md hover:bg-gray-200 transition ease-in duration-700'>
+		<div className='bg-gray-300 py-2 my-2 shadow-md hover:bg-gray-200 hover:border hover:border-myblue-200 transition ease-in duration-700'>
 			<div className='text-center'>
 				<h1 className='text-lg font-semibold'>{title}</h1>
 				<div className='text-sm text-gray-600'>
