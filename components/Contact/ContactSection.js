@@ -3,7 +3,7 @@ import { BsLinkedin } from 'react-icons/bs';
 
 const ContactSection = () => {
 	return (
-		<div className='contact-section bg-gradient-to-r from-myblue-50 to bg-myblue-100'>
+		<div className='contact-section bg-gradient-to-r from-myblue-50 to bg-myblue-100 border-2 border-myblue-300'>
 			<div className='flex space-x-4'>
 				<p>Jordan Latz</p>
 				<div className='text-2xl flex space-x-3 items-center'>

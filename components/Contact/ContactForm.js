@@ -1,9 +1,9 @@
 const ContactForm = () => {
 	return (
 		<form>
-			<div className='grid gap-3 place-content-center justify-items-center p-2  border-myblue-300 bg-gray-100 border
-			md
-			'>
+			<div
+				className='grid gap-3 place-content-center justify-items-center p-2  border-myblue-300 bg-gray-100 border-2 hover:border-black transition ease-in duration-1000'
+			>
 				<div>
 					<h1 className='text-myblue-300 font-extrabold text-xl p-3 tracking-widest'>
 						Send a message...

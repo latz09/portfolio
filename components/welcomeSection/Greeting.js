@@ -27,10 +27,21 @@ const Greeting = () => {
 					<div className='pt-7 my-4 text-center text-lg prose'>
 						<p>
 							I am a Twin-Cities based{' '}
-							<span className='font-semibold'> Javascript </span> web developer, predominantly working with <span className='font-semibold'> REACT</span>,
+							<span className='font-semibold'> Javascript </span> web developer,
+							predominantly working with{' '}
+							<span className='font-semibold'> REACT</span>,
 							<span className='font-semibold '> NextJS</span>,
 							<span className='font-semibold '> TailwindCSS</span> and
 							<span className='font-semibold '> MongoDB</span>.
+						</p>
+						<p>
+							I have experience with{' '}
+							<span className='font-semibold'>
+								Single Page Application Models, REStful API&apos;s, Server Side
+								Rendering(SSR)<> </>
+							</span>
+							and
+							<span className='font-semibold'> Responsive design.</span>
 						</p>
 						<p>
 							Please take a moment to learn more{' '}
@@ -40,14 +51,14 @@ const Greeting = () => {
 						</p>
 					</div>
 				</div>
-				<div className="mb-4">
+				<div className='mb-4'>
 					Check out my latest project{' '}
 					<span className='font-semibold border-b-2 border-black cursor-pointer'>
 						HERE
 					</span>
 				</div>
 				<Link href='/contact'>
-					<div className='p-2 bg-myblue-300 rounded text-gray-100 font-medium hover:bg-cyan-500 cursor-pointer'>
+					<div className='p-2 mt-4 bg-myblue-300 rounded text-gray-100 font-medium hover:bg-myblue-200 cursor-pointer transition ease-in duration-500'>
 						Send me a message
 					</div>
 				</Link>

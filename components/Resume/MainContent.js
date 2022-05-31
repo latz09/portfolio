@@ -25,9 +25,41 @@ const MainContent = () => {
 								dutyTwo={item.dutyTwo}
 								dutyThree={item.dutyThree}
 								dutyFour={item.dutyFour}
+								date={item.date}
 							/>
 						</div>
 					))}
+				</ul>
+			</div>
+			<div className='bg-myblue-100 rounded-md shadow-md mx-2 p-4'>
+				<h1 className='text-xl text-center font-medium mb-5'>
+					Acquired Skills
+				</h1>
+				<ul className='grid gap-3 place-items-center text-sm tracking-widest'>
+					<li className='skills transition ease-in duration-500'>
+						Organization
+					</li>
+					<li className='skills transition ease-in duration-500'>
+						Skillfull Multitasking
+					</li>
+					<li className='skills transition ease-in duration-500'>
+						Creativity
+					</li>
+					<li className='skills transition ease-in duration-500'>
+						Time Management
+					</li>
+					<li className='skills transition ease-in duration-500'>
+						Teamwork
+					</li>
+					<li className='skills transition ease-in duration-500'>
+						Leadership skills
+					</li>
+					<li className='skills transition ease-in  duration-500'>
+						Resilience
+					</li>
+					<li className='skills transition ease-in  duration-500'>
+						Physical and mental stamina
+					</li>
 				</ul>
 			</div>
 		</div>

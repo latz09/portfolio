@@ -17,7 +17,7 @@ const workExperience = [
 	{
 		title: 'Sous Chef',
 		employer: 'Revival Minneapolis',
-		date: '2017-2020',
+		date: '2017-2018',
 		dutyOne:
 			'Ensure Kitchen operates in a timely manner that meets our quality standardss',
 		dutyTwo: 'Maintain food ordering and ensure proper food rotation',
@@ -30,7 +30,7 @@ const workExperience = [
 	{
 		title: 'Chef de Partie',
 		employer: 'FireLake Grill House and Cocktail bar at Radisson Blu',
-		date: '2016-2020',
+		date: '2013-2017',
 		dutyOne: 'Supervisor of line cook team members',
 		dutyTwo: 'Execute and assist with menu development',
 		dutyThree: 'Maintain quality and food control',
