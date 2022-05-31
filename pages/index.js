@@ -8,7 +8,9 @@ export default function Home() {
 				<title>Jordan Latz - web developer -</title>
 				<meta name='description' content='Find a great programmer here' />
 			</Head>
-			<Welcome />
+			<div className='min-h-screen sm:grid sm:items-center'>
+				<Welcome />
+			</div>
 		</div>
 	);
 }

@@ -11,18 +11,18 @@ const NavBar = () => {
 	};
 
 	return (
-		<div>
-			<div className='flex justify-end pr-3 text-2xl sm:hidden cursor-pointer'>
+		<div className="">
+			<div className='flex justify-end justify-items-center pr-3 text-2xl sm:hidden cursor-pointer p-4'>
 				<button onClick={toggleMenu}>
 					<AiOutlineMenu />
 				</button>
 			</div>
 			<div
-				className={!menuOpen ? 'hidden' : 'block mb-4 pb-2 border-b shadow '}
+				className={!menuOpen ? 'hidden' : 'block border-b shadow pb-4 mb-4 sm:hidden'}
 			>
 				<NavLinks />
 			</div>
-			<ul className='hidden sm:flex justify-around place-items-center max-w-3xl mx-auto pb-8'>
+			<ul className='hidden sm:flex place-content-center content-center justify-evenly max-w-3xl mx-auto sm:p-4 '>
 				<Link href='/'>
 					<li className='nav-link'>Home</li>
 				</Link>

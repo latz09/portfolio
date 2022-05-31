@@ -1,18 +1,21 @@
 import Head from 'next/head';
+import MyResume from '../../components/Resume/MyResume';
 
-const MyResume = () => {
+const Resume = () => {
 	return (
 		<div>
-		
 			<Head>
 				<title>Jordan Latz - My Resume -</title>
 				<meta name='description' content='Find a great programmer here' />
 			</Head>
+			<div>
+			<MyResume />
+			</div>
 		</div>
 	);
 };
 
-export default MyResume;
+export default Resume;
 <div>
 	<h1>Resume page</h1>
 </div>;

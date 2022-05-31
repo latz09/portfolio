@@ -6,14 +6,37 @@
 
 @layer components {
 	.nav-link {
-		@apply bg-gray-50 px-2 py-1 rounded text-cyan-900 font-medium cursor-pointer hover:bg-gray-200 hover:text-gray-900 hover:font-medium text-center text-sm sm:text-base tracking-wider ;
+		@apply bg-myblue-100 px-2 py-1 rounded text-cyan-900 font-medium cursor-pointer hover:bg-myblue-200 hover:text-gray-900 hover:font-medium text-center text-sm sm:text-base tracking-wider shadow-lg;
 	}
 
-  .my-svgs {
-    @apply bg-gray-300 p-1 rounded border border-black
-  
-  }
+	.my-svgs {
+		@apply bg-gray-300 p-1 rounded border border-black;
+	}
 
+
+
+
+
+
+	.contact-form-inputs {
+		@apply bg-myblue-100 focus:outline-none focus:ring focus:ring-myblue-300 focus:border-none text-gray-900 focus:bg-myblue-50 rounded opacity-90 focus:opacity-100;
+	}
+
+	.contact-section {
+	@apply grid justify-items-center content-center 
+		
+		gap-4 text-2xl tracking-wider p-8 text-gray-900  border-gray-500 rounded-lg
+	}
+
+
+
+
+
+
+
+	.contact-submit-btn {
+		@apply py-2 px-6 rounded shadow text-white font-semibold tracking-widest border border-gray-500 bg-myblue-300 hover:bg-myblue-200 hover:border-myblue-300 hover:border-2 mt-4;
+	}
 }
 
 /* html,
