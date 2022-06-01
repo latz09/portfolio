@@ -4,16 +4,30 @@ import WorkExperienceItem from './WorkExperienceItem';
 const MainContent = () => {
 	return (
 		<div className='grid gap-4'>
-			<div>
-				<p className='text-gray-800 text-justify py-8 px-4'>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua.
-					Pellentesque diam volutpat commodo sed egestas egestas fringilla
-					phasellus. Volutpat est velit egestas dui id ornare arcu. In cursus
-					turpis massa tincidunt dui ut ornare.
+			<div className='prose bg-myblue-300 text-sm tracking-wider leading-5 text-gray-100 text-justify p-5 md:border-l'>
+				<p className=''>
+					Elevating my way up in one industry, I have the eagerness to succeed
+					in this next Journey. As a chef I have gained many skills that
+					translate to computer Programming. Such as the willingness to know
+					that learning and acquiring skills is a never-ending journey. I have
+					also gained the art of skillful multitasking and remaining organized
+					to the highest standards. The ability to both work and get along with
+					your team is essential, especially in the chaotic setting of a
+					professional kitchen. An example of a skill that has assisted me in
+					the journey of computer programming is the importance of time
+					management – the ability to plan your work both efficiently and
+					accurately.
+				</p>
+				<p className='text-base'>
+					Take a look at my latest project{' '}
+					<span className='font-semibold'>Here</span>
+				</p>
+				<p className='text-base'>
+					Take a look at my full story{' '}
+					<span className='font-semibold'>Here</span>
 				</p>
 			</div>
-			<h1 className='text-center text-2xl text-gray-700'>WORK EXPERIENCE</h1>
+			<h1 className='text-center text-2xl text-gray-700 mt-4'>WORK EXPERIENCE</h1>
 			<div className='grid gap-4 px-2'>
 				<ul>
 					{workExperience.map((item) => (
@@ -42,15 +56,11 @@ const MainContent = () => {
 					<li className='skills transition ease-in duration-500'>
 						Skillfull Multitasking
 					</li>
-					<li className='skills transition ease-in duration-500'>
-						Creativity
-					</li>
+					<li className='skills transition ease-in duration-500'>Creativity</li>
 					<li className='skills transition ease-in duration-500'>
 						Time Management
 					</li>
-					<li className='skills transition ease-in duration-500'>
-						Teamwork
-					</li>
+					<li className='skills transition ease-in duration-500'>Teamwork</li>
 					<li className='skills transition ease-in duration-500'>
 						Leadership skills
 					</li>

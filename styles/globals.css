@@ -24,14 +24,21 @@
 	}
 
 	.contact-submit-btn {
-		@apply py-2 px-6 rounded shadow text-white font-semibold tracking-widest border border-gray-500 bg-myblue-300 hover:bg-myblue-200 hover:border-myblue-300 hover:border-2 mt-4 transition ease-in duration-500;
+		@apply py-2 px-6 rounded shadow text-white font-semibold tracking-widest border border-gray-500 bg-myblue-300 hover:bg-myblue-200 hover:border-myblue-300 hover:border-2 m-4 transition ease-in duration-500;
 	}
 
 	.resume-header {
-		@apply font-medium text-2xl tracking-widest border-b-2 mb-2 text-white
+		@apply font-medium text-2xl tracking-widest border-b-2 mb-2 text-white;
 	}
 	.skills {
-	@apply bg-myblue-300 text-white px-5 rounded py-1 hover:bg-myblue-50 hover:text-myblue-300 hover:font-semibold 
+		@apply bg-myblue-300 text-white px-5 rounded py-1 hover:bg-myblue-50 hover:text-myblue-300 hover:font-semibold;
+	}
+	.story-paragraph {
+		@apply prose text-gray-200 bg-gray-800 max-w-2xl mx-auto p-4 rounded-b-lg shadow-lg h-screen sm:h-[39em] overflow-auto sm:overflow-x-auto scroll-smooth text-sm sm:text-base leading-7 rounded-lg sm:leading-7;
+	}
+
+	.story-header {
+		@apply text-gray-300 text-center text-lg sm:text-3xl font-medium p-4 tracking-wider border-b drop-shadow-lg;
 	}
 }
 

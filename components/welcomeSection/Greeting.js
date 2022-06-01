@@ -38,16 +38,18 @@ const Greeting = () => {
 							I have experience with{' '}
 							<span className='font-semibold'>
 								Single Page Application Models, REStful API&apos;s, Server Side
-								Rendering(SSR)<> </>
+								Rendering(SSR), UI design<> </>
 							</span>
 							and
 							<span className='font-semibold'> Responsive design.</span>
 						</p>
 						<p>
 							Please take a moment to learn more{' '}
+							<Link href='/my_story'>
 							<span className='font-semibold text-myblue-300 border-b border-gray-700 cursor-pointer'>
 								about me!
 							</span>
+							</Link>
 						</p>
 					</div>
 				</div>

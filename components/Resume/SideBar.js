@@ -37,7 +37,7 @@ const Sidebar = () => {
 						Full Stack Web and Mobile Development
 					</p>
 					<p className=''>nucamp Bootcamp, online </p>
-					<p>2021</p>
+					<p>2021 / 22 weeks</p>
 				</div>
 				<div>
 					<h1 className='resume-header'>Courses and Trainings</h1>
@@ -69,6 +69,7 @@ const Sidebar = () => {
 					<li>RESTful API&apos;s</li>
 					<li>SSR</li>
 					<li>Responsive Design</li>
+					<li>UI design</li>
 
 				</div>
 				<div className='text-center md:hidden mt-10'>
