@@ -54,7 +54,7 @@ const ContactForm = () => {
 
 	return (
 		<form>
-			<div className='grid gap-2 md:gap-3 place-content-center justify-items-center p-2  border-myblue-300 bg-gray-700 border-2 hover:border-black transition ease-in duration-1000'>
+			<div className='grid gap-2 md:gap-3 place-content-center justify-items-center p-2  border-myblue-300 bg-gray-700 border-2 hover:border-black transition ease-in duration-1000 md:rounded-full'>
 				<div>
 					{!isMessageSent && (
 						<h1 className='text-myblue-100 font-extrabold text-xl p-3 tracking-widest text-center'>

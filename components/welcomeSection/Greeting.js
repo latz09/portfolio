@@ -11,20 +11,20 @@ const Greeting = () => {
 	}, []);
 
 	return (
-		<div>
-			<div className='tracking-widest flex flex-col place-items-center px-2 rounded '>
+		<div className="text-gray-300">
+			<div className='tracking-widest flex flex-col place-items-center px-2 rounded  '>
 				<div className={`${timer ? 'animate-pulse' : ''}`}>
 					<h1 className='text-8xl py-2'>
-						Hello<span className='text-cyan-600'>,</span>
+						Hello<span className='text-white'>,</span>
 					</h1>
 				</div>
 
-				<p className='text-2xl tracking-widest text-center pb-2'>
+				<p className='text-2xl tracking-widest text-center pb-2 text-gray-400'>
 					Nice to meet you! My name is
 				</p>
 				<div className='text-5xl'>Jordan Latz</div>
 				<div>
-					<div className='pt-7 my-4 text-center text-lg prose'>
+					<div className='pt-7 my-4 text-center text-lg prose text-gray-400'>
 						<p>
 							I am a Twin-Cities based{' '}
 							<span className='font-semibold'> Javascript </span> web developer,

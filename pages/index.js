@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 export default function Home() {
 	return (
-		<div className=''>
+		<div className='bg-black'>
 			<Head>
 				<title>Jordan Latz - web developer -</title>
 				<meta name='description' content='Find a great programmer here' />

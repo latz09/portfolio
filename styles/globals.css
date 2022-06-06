@@ -6,7 +6,7 @@
 
 @layer components {
 	.nav-link {
-		@apply bg-myblue-100 px-2 py-1 rounded text-cyan-900 font-medium cursor-pointer hover:bg-myblue-200 hover:text-gray-900 hover:font-medium text-center text-sm sm:text-base tracking-wider shadow-lg transition ease-in duration-500;
+		@apply bg-slate-400 px-2 py-1 text-slate-100 font-medium cursor-pointer hover:text-gray-100 hover:font-medium hover:bg-slate-900 text-center hover:border hover:border-slate-100 text-sm sm:text-base tracking-wider shadow-lg transition ease-in duration-500;
 	}
 
 	.my-svgs {
@@ -39,6 +39,10 @@
 
 	.story-header {
 		@apply text-gray-300 text-center text-lg sm:text-3xl font-medium p-4 tracking-wider border-b drop-shadow-lg;
+	}
+
+	.project-tabs {
+	@apply text-2xl bg-slate-600 p-3 rounded shadow-lg cursor-pointer hover:bg-slate-300 hover:text-slate-600 hover:border-2 hover:border-slate-800 text-gray-200 transition ease-in duration-500 border border-gray-200
 	}
 }
 
