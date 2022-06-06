@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 const MyStory = () => {
 	return (
 		<div className='mt-12 p-3'>
@@ -77,13 +79,15 @@ const MyStory = () => {
 					</div>
 					<div className='snap-center'>
 						<p>
-							Also knowing, as I gained an understanding as a Chef, to go
-							into it with the willingness to continue learning and continue
+							Also knowing, as I gained an understanding as a Chef, to go into
+							it with the willingness to continue learning and continue
 							acquiring the never-ending sources of skills and knowledge.
 						</p>
-						<p className='text-base'>
+						<p className='text-base cursor-pointer'>
 							Take a look at my latest project{' '}
-							<span className='font-semibold'>Here</span>
+							<Link href={'/my_projects'}>
+								<span className='font-semibold'>Here</span>
+							</Link>
 						</p>
 						<p>Thank you</p>
 					</div>

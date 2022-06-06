@@ -28,7 +28,7 @@ const ContactForm = () => {
 			body: JSON.stringify({
 				name: enteredName,
 				company: enteredCompany,
-				reach: enteredReach,
+				reach: enteredReach, 
 				message: enteredMessage,
 			}),
 			headers: {
@@ -54,20 +54,20 @@ const ContactForm = () => {
 
 	return (
 		<form>
-			<div className='grid gap-2 md:gap-3 place-content-center justify-items-center p-2  border-myblue-300 bg-gray-700 border-2 hover:border-black transition ease-in duration-1000 md:rounded-full'>
-				<div>
+			<div className='grid gap-2 md:gap-3 place-content-center justify-items-center hover:border-black transition ease-in duration-1000 md:rounded-full'>
+				<div className="mb-4">
 					{!isMessageSent && (
 						<h1 className='text-myblue-100 font-extrabold text-xl p-3 tracking-widest text-center'>
 							Send a message...
 						</h1>
 					)}
 					{isMessageSent && (
-						<h1 className='bg-myblue-100 text-xl text-gray-800 p-1 rounded animate-pulse'>
+						<h1 className='text-xl text-gray-200 p-1 rounded animate-pulse'>
 							Thank you for your message!
 						</h1>
 					)}
 					{!isValid && (
-							<h1 className='bg-red-200 text-xl text-center p-1 rounded animate-pulse'>
+							<h1 className='text-xl text-center text-red-400 p-1 rounded animate-pulse'>
 							Please include a way to reach you
 						</h1>
 

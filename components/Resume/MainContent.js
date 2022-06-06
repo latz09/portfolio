@@ -1,5 +1,6 @@
 import workExperience from '../../data/workExperience';
 import WorkExperienceItem from './WorkExperienceItem';
+import Link from 'next/link';
 
 const MainContent = () => {
 	return (
@@ -20,14 +21,20 @@ const MainContent = () => {
 				</p>
 				<p className='text-base'>
 					Take a look at my latest project{' '}
-					<span className='font-semibold'>Here</span>
+					<Link href={'/my_projects'}>
+						<span className='font-semibold cursor-pointer'>Here</span>
+					</Link>
 				</p>
 				<p className='text-base'>
 					Take a look at my full story{' '}
-					<span className='font-semibold'>Here</span>
+					<Link href={'my_story'}>
+						<span className='font-semibold cursor-pointer'>Here</span>
+					</Link>
 				</p>
 			</div>
-			<h1 className='text-center text-2xl text-gray-700 mt-4'>WORK EXPERIENCE</h1>
+			<h1 className='text-center text-2xl text-gray-700 mt-4'>
+				WORK EXPERIENCE
+			</h1>
 			<div className='grid gap-4 px-2'>
 				<ul>
 					{workExperience.map((item) => (

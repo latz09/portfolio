@@ -4,7 +4,7 @@ import ContactSection from '../../components/Contact/ContactSection';
 
 const ContactPage = () => {
 	return (
-		<div className='min-h-screen max-w-2xl mx-auto'>
+		<div className='min-h-screen max-w-2xl mx-auto bg-slate-700 '>
 			<Head>
 				<title>Jordan Latz - Contact Me -</title>
 				<meta name='description' content='Find a great programmer here' />

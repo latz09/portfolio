@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { AiFillGithub } from 'react-icons/ai';
 import { useState } from 'react';
 import ContextDescription from './ContextDescription';
@@ -10,7 +9,7 @@ const BoardProjectDescription = () => {
 
 	const handleContextPage = () => {
 		setContextDescription(true);
-		setdataFetchingDescription(false)
+		setdataFetchingDescription(false);
 	};
 
 	const handleDataPage = () => {
@@ -52,7 +51,15 @@ const BoardProjectDescription = () => {
 				<div className='flex items-center space-x-4'>
 					<p>Link to repository</p>
 					<span className='text-4xl'>
-						<AiFillGithub />
+						<a
+							target='_blank'
+							rel='noreferrer'
+							href='https://github.com/latz09/paddleBoardEcommerece'
+						>
+							<span className='text-green-600'>
+								<AiFillGithub />
+							</span>
+						</a>
 					</span>
 				</div>
 			</div>

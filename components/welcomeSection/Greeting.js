@@ -11,7 +11,7 @@ const Greeting = () => {
 	}, []);
 
 	return (
-		<div className="text-gray-300">
+		<div className='text-gray-300'>
 			<div className='tracking-widest flex flex-col place-items-center px-2 rounded  '>
 				<div className={`${timer ? 'animate-pulse' : ''}`}>
 					<h1 className='text-8xl py-2'>
@@ -46,18 +46,20 @@ const Greeting = () => {
 						<p>
 							Please take a moment to learn more{' '}
 							<Link href='/my_story'>
-							<span className='font-semibold text-myblue-300 border-b border-gray-700 cursor-pointer'>
-								about me!
-							</span>
+								<span className='font-semibold text-myblue-300 border-b border-gray-700 cursor-pointer'>
+									about me!
+								</span>
 							</Link>
 						</p>
 					</div>
 				</div>
 				<div className='mb-4'>
 					Check out my latest project{' '}
-					<span className='font-semibold border-b-2 border-black cursor-pointer'>
-						HERE
-					</span>
+					<Link href={'/my_projects'}>
+						<span className='font-semibold border-b-2 border-black cursor-pointer'>
+							HERE
+						</span>
+					</Link>
 				</div>
 				<Link href='/contact'>
 					<div className='p-2 mt-4 bg-myblue-300 rounded text-gray-100 font-medium hover:bg-myblue-200 cursor-pointer transition ease-in duration-500'>

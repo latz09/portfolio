@@ -14,13 +14,13 @@
 	}
 
 	.contact-form-inputs {
-		@apply bg-myblue-100 focus:outline-none focus:ring focus:ring-myblue-300 focus:border-none text-gray-900 focus:bg-myblue-50 rounded opacity-90 focus:opacity-100;
+		@apply opacity-20 focus:outline-none focus:ring focus:ring-myblue-300 focus:border-none text-gray-700 focus:bg-myblue-50 rounded focus:opacity-100;
 	}
 
 	.contact-section {
 		@apply grid justify-items-center content-center 
 		
-		gap-4 text-2xl tracking-wider p-8 text-gray-900  border-gray-500 rounded-lg;
+		gap-4 text-2xl tracking-wider p-8 text-gray-100  border-gray-500 rounded-lg;
 	}
 
 	.contact-submit-btn {
