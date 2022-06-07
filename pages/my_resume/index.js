@@ -8,7 +8,7 @@ const Resume = () => {
 				<title>Jordan Latz - My Resume -</title>
 				<meta name='description' content='Find a great programmer here' />
 			</Head>
-			<div>
+			<div className="">
 			<MyResume />
 			</div>
 		</div>

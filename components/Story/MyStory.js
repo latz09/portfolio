@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const MyStory = () => {
 	return (
-		<div className='mt-12 p-3'>
+		<div className='pt-12 p-3'>
 			<article className='story-paragraph'>
 				<h1 className='story-header'>My journey thus far</h1>
 				<div className='bg-gray-300 px-4 py-1 rounded-sm border-x'>
@@ -86,7 +86,7 @@ const MyStory = () => {
 						<p className='md:text-base cursor-pointer'>
 							Take a look at my latest project{' '}
 							<Link href={'/my_projects'}>
-								<span className='font-semibold'>Here</span>
+								<span className='font-semibold text-gray-100 rounded-md tracking-widest p-1 bg-green-500'>Here</span>
 							</Link>
 						</p>
 						<p>Thank you</p>

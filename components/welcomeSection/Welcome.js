@@ -9,7 +9,7 @@ const Welcome = () => {
 					<Greeting />
 				</div>
 
-				<div className='pt-8'>
+				<div className='pt-8 pb-8'>
 					<Languages />
 				</div>
 			</div>

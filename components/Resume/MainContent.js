@@ -52,7 +52,7 @@ const MainContent = () => {
 					))}
 				</ul>
 			</div>
-			<div className='bg-myblue-100 rounded-md shadow-md mx-2 p-4'>
+			<div className='bg-myblue-100 rounded-md shadow-md mx-2 p-4 border-b border-r border-black'>
 				<h1 className='text-xl text-center font-medium mb-5'>
 					Acquired Skills
 				</h1>
