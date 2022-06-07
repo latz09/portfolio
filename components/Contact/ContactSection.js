@@ -4,11 +4,11 @@ import { BsLinkedin } from 'react-icons/bs';
 const ContactSection = () => {
 	return (
 		<div>
-			<h1 className='text-center text-3xl text-gray-300'>
+			<h1 className='text-center text-3xl text-gray-700 pt-5'>
 				Get in contact with me ...
 			</h1>
 			<div className='contact-section'>
-				<div className='flex space-x-4'>
+				<div className='flex space-x-4 '>
 					<p>Jordan Latz</p>
 					<div className='text-2xl flex space-x-3 items-center cursor-pointer'>
 						<a

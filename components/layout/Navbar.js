@@ -11,9 +11,9 @@ const NavBar = () => {
 	};
 
 	return (
-		<div className="bg-slate-900">
+		<div className="bg-black">
 			<div className='flex justify-end justify-items-center pr-3 text-2xl sm:hidden cursor-pointer p-4'>
-				<button onClick={toggleMenu}>
+				<button onClick={toggleMenu} className="text-green-500">
 					<AiOutlineMenu />
 				</button>
 			</div>

@@ -7,14 +7,13 @@ import cartDisplayBadge from '../../../public/images/codeSnippets/CartContext/ca
 import initialContext from '../../../public/images/codeSnippets/CartContext/setInitialContext.png';
 import cartDisplay from '../../../public/images/codeSnippets/CartContext/CartDisplay.png';
 import { AiOutlineArrowUp } from 'react-icons/ai';
-import Link from 'next/link';
 
 const ContextDescription = () => {
 	return (
-		<div className='bg-gray-400 prose pb-12 px-3'>
+		<div className='bg-gray-400 prose pb-12 px-3' >
 			{/* Header of section */}
 			<div className='p-2'>
-				<div className='text-center md:text-xl font-base bg-slate-300 rounded shadow-md'>
+				<div className='text-center md:text-xl font-base bg-slate-300 rounded shadow'>
 					<h2 className='text-gray-700'>Managing cart state</h2>
 				</div>
 			</div>
@@ -23,7 +22,7 @@ const ContextDescription = () => {
 				<div className='mt-12 mb-2'>
 					<p className='text-center font-medium'>
 						Here I created context and added the API calls to the value of the
-						Provider to not only manage the context but to also manage the
+						Provider to not only manage the context but also manage the
 						database.
 					</p>
 				</div>
@@ -62,8 +61,8 @@ const ContextDescription = () => {
 
 			<div className='pb-12'>
 				<p className='text-center font-medium'>
-					Using the context pulled in from the database to display the cart
-					component
+					Using the context pulled in from the database and then dynamically
+					rendering the data to create individual components
 				</p>
 				<div className='shadow'>
 					<Image src={cartDisplay} alt='add item to cart' />
@@ -98,17 +97,18 @@ const ContextDescription = () => {
 			{/* Cart Badge */}
 			<div className='pb-12'>
 				<p className='text-center font-medium'>
-					Displaying the cart badge in the header with cart items total
+					Displaying the cart badge in the header with cart item total
 				</p>
 				<div className='shadow'>
 					<Image src={cartDisplayBadge} alt='cart display badge' />
 				</div>
 			</div>
-			<Link href={'/my_projects'} scroll>
+
+			<a href='#snippet'>
 				<div className='text-4xl flex place-content-center cursor-pointer'>
 					<AiOutlineArrowUp />
 				</div>
-			</Link>
+			</a>
 		</div>
 	);
 };

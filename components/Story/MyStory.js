@@ -5,7 +5,7 @@ const MyStory = () => {
 		<div className='mt-12 p-3'>
 			<article className='story-paragraph'>
 				<h1 className='story-header'>My journey thus far</h1>
-				<div className='bg-gray-700 px-4 py-1 rounded-sm border-x'>
+				<div className='bg-gray-300 px-4 py-1 rounded-sm border-x'>
 					<div className=''>
 						<p>
 							In 2011 I moved to Minneapolis and enrolled at The Art Institute
@@ -36,7 +36,7 @@ const MyStory = () => {
 							accomplishment at the end of a successful day where you and your
 							team made it to the other side of the chaos that we had endured in
 							the previous hours.
-						</p>
+						</p> 
 					</div>
 					<div className=''>
 						<p>
@@ -68,7 +68,7 @@ const MyStory = () => {
 						<p>
 							I was unsure about what my future entailed, when a friend
 							introduced me into something called codecademy and a I truly
-							enjoyed it. Soon after I enrolled in a 6 month long bootcamp, took
+							enjoyed it. Soon after that, I enrolled in a 6 month long bootcamp, took
 							multiple online courses and trainings, watched countless youtube
 							videos and of course, hundreds of hours of coding. I constructed
 							myself a path acquiring the skills and tools needed to become a
@@ -79,11 +79,11 @@ const MyStory = () => {
 					</div>
 					<div className='snap-center'>
 						<p>
-							Also knowing, as I gained an understanding as a Chef, to go into
+							Also knowing, as I gained an understanding of as a Chef, to go into
 							it with the willingness to continue learning and continue
 							acquiring the never-ending sources of skills and knowledge.
 						</p>
-						<p className='text-base cursor-pointer'>
+						<p className='md:text-base cursor-pointer'>
 							Take a look at my latest project{' '}
 							<Link href={'/my_projects'}>
 								<span className='font-semibold'>Here</span>

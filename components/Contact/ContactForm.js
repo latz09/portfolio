@@ -17,10 +17,9 @@ const ContactForm = () => {
 		const enteredMessage = messageRef.current.value;
 
 		if (enteredReach === '') {
-			
-			setisValid(false)	
-			setisMessageSent(false)
-			return
+			setisValid(false);
+			setisMessageSent(false);
+			return;
 		}
 
 		fetch('/api/messages', {
@@ -28,7 +27,7 @@ const ContactForm = () => {
 			body: JSON.stringify({
 				name: enteredName,
 				company: enteredCompany,
-				reach: enteredReach, 
+				reach: enteredReach,
 				message: enteredMessage,
 			}),
 			headers: {
@@ -44,7 +43,7 @@ const ContactForm = () => {
 		}, 6000);
 
 		setisMessageSent(true);
-		setisValid(true)
+		setisValid(true);
 
 		nameRef.current.value = '';
 		companyRef.current.value = '';
@@ -53,60 +52,62 @@ const ContactForm = () => {
 	};
 
 	return (
-		<form>
-			<div className='grid gap-2 md:gap-3 place-content-center justify-items-center hover:border-black transition ease-in duration-1000 md:rounded-full'>
-				<div className="mb-4">
-					{!isMessageSent && (
-						<h1 className='text-myblue-100 font-extrabold text-xl p-3 tracking-widest text-center'>
-							Send a message...
-						</h1>
-					)}
-					{isMessageSent && (
-						<h1 className='text-xl text-gray-200 p-1 rounded animate-pulse'>
-							Thank you for your message!
-						</h1>
-					)}
-					{!isValid && (
-							<h1 className='text-xl text-center text-red-400 p-1 rounded animate-pulse'>
-							Please include a way to reach you
-						</h1>
-
-					)}
+		<form className='pb-12'>
+			<div className='bg-gray-100 mx-3 py-3 sm:mx-10 rounded-md shadow-md md:mt-8'>
+				<div className='text-center'>
+					<div className='p-4'>
+						{!isMessageSent && (
+							<h1 className='text-gray-700 font-medium text-xl p-3 tracking-widest text-center'>
+								Send a message...
+							</h1>
+						)}
+						{isMessageSent && (
+							<h1 className='text-xl text-gray-800 p-1 rounded animate-pulse'>
+								Thank you for your message!
+							</h1>
+						)}
+						{!isValid && (
+							<h1 className='text-xl text-center text-red-600 p-1 rounded animate-pulse'>
+								Please include a way to reach you
+							</h1>
+						)}
+					</div>
 				</div>
-				<div>
-					<input
-						type='text'
-						placeholder='name'
-						className='contact-form-inputs'
-						ref={nameRef}
-					/>
+				<div className='grid place-content-center gap-2'>
+					<div>
+						<input
+							type='text'
+							placeholder='name'
+							className='contact-form-inputs'
+							ref={nameRef}
+						/>
+					</div>
+					<div>
+						<input
+							type='text'
+							placeholder='company'
+							className='contact-form-inputs'
+							ref={companyRef}
+						/>
+					</div>
+					<div>
+						<input
+							type='text'
+							placeholder='how to reach you'
+							className='contact-form-inputs'
+							ref={reachRef}
+						/>
+					</div>
 				</div>
-				<div>
-					<input
-						type='text'
-						placeholder='company'
-						className='contact-form-inputs'
-						ref={companyRef}
-					/>
-				</div>
-				<div>
-					<input
-						type='text'
-						placeholder='how to reach you'
-						className='contact-form-inputs'
-						ref={reachRef}
-					/>
-				</div>
-				<div>
+				<div className='grid place-content-center gap-4 pt-4'>
 					<textarea
 						cols='30'
 						rows='10'
 						placeholder='message...'
-						className='contact-form-inputs'
+						className='contact-form-inputs focus:bg-gray-50 mx-4'
 						ref={messageRef}
 					></textarea>
-				</div>
-				<div>
+
 					<button onClick={messageHandler} className='contact-submit-btn'>
 						Send
 					</button>

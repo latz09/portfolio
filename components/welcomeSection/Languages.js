@@ -8,7 +8,7 @@ import Image from 'next/image';
 
 const Languages = () => {
 	return (
-		<div className="">
+		<div className="pb-8">
 			<ul className='text-2xl flex justify-center space-x-6'>
 				<li className='text-gray-800 my-svgs'>
 					<IoLogoJavascript />
