@@ -9,7 +9,7 @@ const DataFetching = () => {
 			<div className='p-2'>
 				<div className='text-center md:text-xl font-base text-slate-700 bg-slate-300 rounded shadow'>
 					<h2 className='text-gray-700'>
-						Dynamically rendering Pages by accessing database directly
+					Statically generating pages by accessing database directly
 					</h2>
 				</div>
 			</div>

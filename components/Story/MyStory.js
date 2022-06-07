@@ -4,7 +4,7 @@ const MyStory = () => {
 	return (
 		<div className='pt-12 p-3'>
 			<article className='story-paragraph'>
-				<h1 className='story-header'>My journey thus far</h1>
+				<h1 className='story-header tracking-widest'>Flap Jacks to Full stack</h1>
 				<div className='bg-gray-300 px-4 py-1 rounded-sm border-x'>
 					<div className=''>
 						<p>

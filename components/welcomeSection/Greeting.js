@@ -27,7 +27,7 @@ const Greeting = () => {
 					<div className='pt-7 my-4 text-center md:text-lg md:text-justify prose text-gray-400'>
 						<p>
 							I am a Twin-Cities based{' '}
-							<span className='font-semibold'> Javascript </span> web developer,
+							<span className='font-semibold'> Full stack JavaScript </span> web developer,
 							predominantly working with{' '}
 							<span className='font-semibold'> REACT</span>,
 							<span className='font-semibold '> NextJS</span>,
