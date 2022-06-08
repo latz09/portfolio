@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import myImage from '../../public/images/myself_thumb.jpg';
+import { BsLinkedin } from 'react-icons/bs';
 
 const Sidebar = () => {
 	return (
@@ -14,7 +15,7 @@ const Sidebar = () => {
 					layout='fixed'
 				/>
 			</div>
-			<div className="grid gap-2">
+			<div className='grid gap-2'>
 				<h1 className='resume-header'>CONTACT</h1>
 				<p>latz.jordan@gmail.com</p>
 				<a
@@ -24,6 +25,13 @@ const Sidebar = () => {
 					className=''
 				>
 					<p>jordan-latz.vercel.app/</p>
+				</a>
+				<a
+					href='https://www.linkedin.com/in/jordan-latz'
+					target='_blank.'
+					rel='noreferrer'
+				>
+					<p className=''>https://www.linkedin.com/in/jordan-latz</p>
 				</a>
 				<p>Twin Cities, Minnesota</p>
 			</div>
