@@ -15,11 +15,17 @@ const LargerContactSection = () => {
 					<AiFillGithub />
 				</a>
 
-				<a>
+				<a
+					href='https://www.linkedin.com/in/jordan-latz'
+					target='_blank.'
+					rel='noreferrer'
+				>
 					<BsLinkedin />
 				</a>
 			</div>
-			<p>latz.jordan<span className="text-green-500">@</span>gmail.com</p>
+			<p>
+				latz.jordan<span className='text-green-500'>@</span>gmail.com
+			</p>
 			<p>West St Paul, MN 55118</p>
 		</div>
 	);

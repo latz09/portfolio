@@ -18,7 +18,13 @@ const ContactSection = () => {
 						>
 							<AiFillGithub />
 						</a>
-						<BsLinkedin />
+						<a
+							href='https://www.linkedin.com/in/jordan-latz'
+							target='_blank.'
+							rel='noreferrer'
+						>
+							<BsLinkedin />
+						</a>
 					</div>
 				</div>
 				<p>latz.jordan@gmail.com</p>

@@ -11,24 +11,17 @@ const NavBar = () => {
 	};
 
 	return (
-		<div className="bg-black">
+		<div className='bg-black'>
 			<div className='flex justify-end justify-items-center pr-3 text-2xl sm:hidden cursor-pointer p-4'>
-				<button onClick={toggleMenu} className="text-green-500">
+				<button onClick={toggleMenu} className='text-green-500'>
 					<AiOutlineMenu />
 				</button>
 			</div>
 
-
-
-			<div
-				className={!menuOpen ? 'hidden' : 'block shadow pb-4 sm:hidden'}
-			>
+			<div className={!menuOpen ? 'hidden' : 'block shadow pb-4 sm:hidden'}>
 				<NavLinks />
 			</div>
-			
-			
-			
-			
+
 			<ul className='hidden sm:flex place-content-center content-center justify-evenly max-w-3xl mx-auto sm:p-4'>
 				<Link href='/'>
 					<li className='nav-link'>Home</li>
