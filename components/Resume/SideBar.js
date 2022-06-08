@@ -16,7 +16,7 @@ const Sidebar = () => {
 			</div>
 			<div>
 				<h1 className='resume-header'>CONTACT</h1>
-				<p>latz.jordan@gmail.com</p>
+				<p>jordan-latz.vercel.app/</p>
 				<p>www.myPortfoli@something.com</p>
 				<p>Twin Cities, Minnesota</p>
 			</div>
