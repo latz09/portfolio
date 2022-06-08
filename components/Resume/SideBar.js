@@ -3,7 +3,7 @@ import myImage from '../../public/images/myself_thumb.jpg';
 
 const Sidebar = () => {
 	return (
-		<div className='bg-myblue-300  text-gray-200 tracking-wide text-sm  px-3 py-4 md:grid md:items-center md:gap-4 grid gap-3 justify-center shadow-md border-l-2 border-black'>
+		<div className='bg-myblue-300  text-gray-200 tracking-wide text-sm  px-3 py-4 md:grid md:items-center md:gap-4 grid gap-3 justify-center shadow-md border-l-2 border-t-2 border-black'>
 			<div className='hidden md:text-center md:inline'>
 				<Image
 					src={myImage}
@@ -14,10 +14,17 @@ const Sidebar = () => {
 					layout='fixed'
 				/>
 			</div>
-			<div>
+			<div className="grid gap-2">
 				<h1 className='resume-header'>CONTACT</h1>
-				<p>jordan-latz.vercel.app/</p>
-				<p>www.myPortfoli@something.com</p>
+				<p>latz.jordan@gmail.com</p>
+				<a
+					target='_blank'
+					rel='noreferrer'
+					href='https://jordan-latz.vercel.app/'
+					className=''
+				>
+					<p>jordan-latz.vercel.app/</p>
+				</a>
 				<p>Twin Cities, Minnesota</p>
 			</div>
 
@@ -42,17 +49,20 @@ const Sidebar = () => {
 				<div>
 					<h1 className='resume-header'>Courses and Trainings</h1>
 					<div>
-						<h1 className="text-xl text-white">React - The Complete Guide</h1>
+						<h1 className='text-xl text-white'>React - The Complete Guide</h1>
 						<p>Academind</p>
 						<p>48.5 hours</p>
-						<p className="text-gray-300">Instructor: Maximillian Schwarzmuller</p>
-						
+						<p className='text-gray-300'>
+							Instructor: Maximillian Schwarzmuller
+						</p>
 					</div>
-					<div className="py-4">
-						<h1 className="text-xl text-white">NextJS - The Complete Guide</h1>
+					<div className='py-4'>
+						<h1 className='text-xl text-white'>NextJS - The Complete Guide</h1>
 						<p>Academind</p>
 						<p>25 hours</p>
-						<p className="text-gray-300">Instructor: Maximillian Schwarzmuller</p>
+						<p className='text-gray-300'>
+							Instructor: Maximillian Schwarzmuller
+						</p>
 					</div>
 				</div>
 
@@ -70,7 +80,6 @@ const Sidebar = () => {
 					<li>SSR</li>
 					<li>Responsive Design</li>
 					<li>UI design</li>
-
 				</div>
 				<div className='text-center md:hidden mt-10'>
 					<Image
