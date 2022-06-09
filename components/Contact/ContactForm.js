@@ -55,7 +55,7 @@ const ContactForm = ({ setShowModal }) => {
 		<form className=''>
 			<div className='bg-gray-900 mx-3 py-3 sm:mx-10 rounded-md shadow-md md:mt-8 border-green-500 border'>
 				<p
-					className='text-3xl flex justify-end pr-4 text-gray-300'
+					className='cursor-pointer text-3xl flex justify-end pr-4 text-gray-300'
 					onClick={() => {
 						setShowModal(false);
 					}}
