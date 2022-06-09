@@ -18,7 +18,12 @@ const NavBar = () => {
 				</button>
 			</div>
 
-			<div className={!menuOpen ? 'hidden' : 'block shadow pb-4 sm:hidden'}>
+			<div
+				className={!menuOpen ? 'hidden' : 'block shadow pb-4 sm:hidden'}
+				onClick={() => {
+					setMenuOpen(false);
+				}}
+			>
 				<NavLinks />
 			</div>
 

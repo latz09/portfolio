@@ -14,7 +14,7 @@
 	}
 
 	.contact-form-inputs {
-		@apply  form-input  focus:ring-green-500 focus:ring-1 text-gray-700 focus:bg-green-100 rounded 
+		@apply  form-input  focus:ring-black focus:ring-1 text-black focus:bg-gray-400 rounded bg-gray-800
 	}
 
 	.contact-section {
@@ -35,7 +35,10 @@
 	}
 
 
+	.message {
+		@apply p-2 mt-4 bg-green-500 rounded text-gray-50 font-medium hover:bg-myblue-200 cursor-pointer transition ease-in duration-500
 
+	}
 
 	.story-paragraph {
 		@apply prose text-gray-700 font-medium bg-gray-900 max-w-3xl mx-auto p-4 rounded-b-lg shadow-lg h-screen sm:h-[39em] overflow-auto sm:overflow-x-auto scroll-smooth text-sm sm:text-base leading-7 rounded-lg sm:leading-7 border-l-2 border-green-500;

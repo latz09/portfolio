@@ -3,7 +3,7 @@ import { BsLinkedin } from 'react-icons/bs';
 
 const LargerContactSection = () => {
 	return (
-		<div className=' grid gap-6 text-3xl place-content-center justify-items-center bg-gray-300 border border-black rounded-3xl shadow-md shadow-green-300 p-28 tracking-wider'>
+		<div className=' grid gap-6 md:text-3xl text-lg  place-content-center justify-items-center bg-gray-black text-gray-100  border border-black rounded-3xl shadow-md shadow-green-300 p-28 tracking-wider'>
 			<p></p>
 			<p>Jordan Latz</p>
 			<div className='flex space-x-8 text-3xl'>

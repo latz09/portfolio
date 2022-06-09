@@ -1,6 +1,6 @@
 import { useRef, useState, useEffect } from 'react';
 
-const ContactForm = () => {
+const ContactForm = ({ setShowModal }) => {
 	const [isMessageSent, setisMessageSent] = useState(false);
 	const [isValid, setisValid] = useState(true);
 
@@ -52,17 +52,25 @@ const ContactForm = () => {
 	};
 
 	return (
-		<form className='pb-12'>
-			<div className='bg-gray-100 mx-3 py-3 sm:mx-10 rounded-md shadow-md md:mt-8'>
+		<form className=''>
+			<div className='bg-gray-900 mx-3 py-3 sm:mx-10 rounded-md shadow-md md:mt-8 border-green-500 border'>
+				<p
+					className='text-3xl flex justify-end pr-4 text-gray-300'
+					onClick={() => {
+						setShowModal(false);
+					}}
+				>
+					x
+				</p>
 				<div className='text-center'>
 					<div className='p-4'>
 						{!isMessageSent && (
-							<h1 className='text-gray-700 font-medium text-xl p-3 tracking-widest text-center'>
+							<h1 className='text-gray-100 font-medium text-xl p-3 tracking-widest text-center'>
 								Send a message...
 							</h1>
 						)}
 						{isMessageSent && (
-							<h1 className='text-xl text-gray-800 p-1 rounded animate-pulse'>
+							<h1 className='text-xl text-gray-400 p-1 rounded animate-pulse'>
 								Thank you for your message!
 							</h1>
 						)}
