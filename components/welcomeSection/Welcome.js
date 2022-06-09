@@ -23,15 +23,14 @@ const Welcome = () => {
 					</div>
 				</div>
 			</div>
+			<div>
 			{showModal ? (
-				<div className="absolute inset-0" onClick={() => {
-				  setShowModal(false)
-				}}>
+				<div className="absolute inset-0" >
 					<div className="flex  place-content-center h-2/3">
 					<ContactForm setShowModal={setShowModal} />
 					</div>
 				</div>
-			) : null}
+			) : null}</div>
 		</div>
 	);
 };
