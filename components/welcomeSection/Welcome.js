@@ -24,7 +24,9 @@ const Welcome = () => {
 				</div>
 			</div>
 			{showModal ? (
-				<div className="absolute inset-0">
+				<div className="absolute inset-0" onClick={() => {
+				  setShowModal(false)
+				}}>
 					<div className="flex  place-content-center h-2/3">
 					<ContactForm setShowModal={setShowModal} />
 					</div>
