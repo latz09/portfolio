@@ -112,7 +112,7 @@ const ContactForm = ({ setShowModal }) => {
 						cols='30'
 						rows='10'
 						placeholder='message...'
-						className='contact-form-inputs focus:bg-gray-50 mx-4'
+						className='contact-form-inputs mx-4'
 						ref={messageRef}
 					></textarea>
 
