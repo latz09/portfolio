@@ -20,7 +20,7 @@ const VideoCardPlayer = ({ src, alt, title, href_deployment, css, href_repositor
 				</a>
 					
 				</div>
-				<Image alt={alt} src={src} layout='intrinsic' />
+				<Image alt={alt} src={src} priority='true'/>
 				<h1
 					className={`sm:text-xl md:text-2xl border-opacity-70 pb-3 ${css} hover:opacity-70 transition duration-700`}
 				>
