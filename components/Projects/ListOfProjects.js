@@ -18,7 +18,7 @@ const ListOfProjects = () => {
 				/>
 				<Link href={'/my_projects'}>
 					<p className='hover:opacity-70 cursor-pointer text-white text-center'>
-						description -{'>'}
+						details -{'>'}
 					</p>
 				</Link>
 			</div>
@@ -33,7 +33,7 @@ const ListOfProjects = () => {
 				/>
 				<Link href={'/my_projects'}>
 					<p className='hover:opacity-70 cursor-pointer text-white text-center'>
-						description -{'>'}
+						details -{'>'}
 					</p>
 				</Link>
 			</div>

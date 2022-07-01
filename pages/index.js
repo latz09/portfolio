@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import ListOfProjects from '../components/Projects/ListOfProjects';
-import VideoCardPlayer from '../components/Projects/VideoCardPlayer';
+import { AiOutlineArrowDown } from 'react-icons/ai';
 import ProjectBtn from '../components/utils/ProjectBtn';
 import ScrollUpBtn from '../components/utils/ScrollUpBtn';
 import Greeting from '../components/welcomeSection/Greeting';
@@ -8,7 +8,7 @@ import Greeting from '../components/welcomeSection/Greeting';
 export default function Home() {
 	return (
 		<div id='top-home' className='grid'>
-			<div className=''>
+			<div className='min-h-screen'>
 				{' '}
 				<div className='grid h-screen items-center'>
 					<Head>
@@ -20,14 +20,20 @@ export default function Home() {
 						<div className='md:mt-0 md:flex items-center'>
 							<Greeting />
 						</div>
-						<div className='grid justify-center md:justify-end md:pr-12'>
+						<div className='hidden sm:grid justify-center md:justify-end md:pr-12'>
 							<ProjectBtn />
+						</div>
+						<div className='text-red-500 text-xl grid justify-center justify-items-center gap-2 mt-4 sm:hidden'>
+							<h1>recent projects</h1>
+							<span className='text-3xl animate-pulse'>
+								<AiOutlineArrowDown />
+							</span>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div className='text-white hidden sm:flex text-4xl space-x-12 justify-center opacity-80 uppercase  pb-6 px-4 h-[32rem] '>
+			<div className='text-white flex text-4xl space-x-12 justify-center opacity-80 uppercase  pb-6 px-4 h-[32rem] '>
 				<p>P</p>
 				<p>r</p>
 				<p>o</p>
@@ -45,7 +51,7 @@ export default function Home() {
 							<ListOfProjects />
 						</div>
 						<div className=''>
-							<span className='flex justify-center sm:pt-36'>
+							<span className='hidden sm:flex justify-center sm:pt-36'>
 								<ScrollUpBtn href={`#top-home`} />
 							</span>
 						</div>

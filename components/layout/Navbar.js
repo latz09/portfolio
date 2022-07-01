@@ -12,7 +12,7 @@ const NavBar = () => {
 	};
 
 	return (
-		<div>
+		<div className="border-2">
 			<div className='flex bg-black justify-between justify-items-center pr-3 text-2xl sm:hidden cursor-pointer p-4'>
 				<Social />
 				<button onClick={toggleMenu} className='text-red-500'>
@@ -28,6 +28,8 @@ const NavBar = () => {
 			>
 				<NavLinks />
 			</div>
+
+
 			<div className='grid grid-cols-12 items-center bg-black'>
 				<ul className='hidden sm:flex place-content-center content-center justify-around  sm:p-4 col-span-10'>
 					<Link href='/'>
