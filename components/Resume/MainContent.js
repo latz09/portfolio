@@ -1,11 +1,12 @@
 import workExperience from '../../data/workExperience';
 import WorkExperienceItem from './WorkExperienceItem';
 import Link from 'next/link';
+import HospitalityContent from './HospitalityContent';
 
 const MainContent = () => {
 	return (
-		<div className='grid gap-4'>
-			<div className='prose bg-myblue-300 text-sm tracking-wider leading-5 text-gray-100 text-justify p-5 md:border-l'>
+		<div className='grid gap-4 bg-gray-800 bg-opacity-60'>
+			<div className='prose text-sm tracking-wider leading-5 text-gray-200 text-justify md:text-right p-5 md:border-l'>
 				<p className=''>
 					Elevating my way up in one industry, I have the eagerness to succeed
 					in this next Journey. As a chef I have gained many skills that
@@ -19,66 +20,10 @@ const MainContent = () => {
 					management – the ability to plan your work both efficiently and
 					accurately.
 				</p>
-				<p className='text-base'>
-					Take a look at my latest project{' '}
-					<Link href={'/my_projects'}>
-						<span className='font-semibold cursor-pointer'>Here</span>
-					</Link>
-				</p>
-				<p className='text-base'>
-					Take a look at my full story{' '}
-					<Link href={'my_story'}>
-						<span className='font-semibold cursor-pointer'>Here</span>
-					</Link>
-				</p>
 			</div>
-			<h1 className='text-center text-2xl text-gray-700 mt-4'>
-				WORK EXPERIENCE
-			</h1>
-			<div className='grid gap-4 px-2'>
-				<ul>
-					{workExperience.map((item) => (
-						<div key={item.date}>
-							<WorkExperienceItem
-								title={item.title}
-								employer={item.employer}
-								dutyOne={item.dutyOne}
-								dutyTwo={item.dutyTwo}
-								dutyThree={item.dutyThree}
-								dutyFour={item.dutyFour}
-								date={item.date}
-							/>
-						</div>
-					))}
-				</ul>
-			</div>
-			<div className='bg-myblue-100 rounded-md shadow-md mx-2 p-4 border-b border-r border-black'>
-				<h1 className='text-xl text-center font-medium mb-5'>
-					Acquired Skills
-				</h1>
-				<ul className='grid gap-3 place-items-center text-sm tracking-widest'>
-					<li className='skills transition ease-in duration-500'>
-						Organization
-					</li>
-					<li className='skills transition ease-in duration-500'>
-						Skillfull Multitasking
-					</li>
-					<li className='skills transition ease-in duration-500'>Creativity</li>
-					<li className='skills transition ease-in duration-500'>
-						Time Management
-					</li>
-					<li className='skills transition ease-in duration-500'>Teamwork</li>
-					<li className='skills transition ease-in duration-500'>
-						Leadership skills
-					</li>
-					<li className='skills transition ease-in  duration-500'>
-						Resilience
-					</li>
-					<li className='skills transition ease-in  duration-500'>
-						Physical and mental stamina
-					</li>
-				</ul>
-			</div>
+			<h1 className='text-center text-2xl text-gray-200 mt-4'>EXPERIENCE</h1>	
+				
+			<HospitalityContent />
 		</div>
 	);
 };

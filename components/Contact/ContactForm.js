@@ -53,20 +53,13 @@ const ContactForm = ({ setShowModal }) => {
 
 	return (
 		<form className=''>
-			<div className='bg-gray-900 mx-3 py-3 sm:mx-10 rounded-md shadow-md md:mt-8 border-green-500 border'>
-				<p
-					className='cursor-pointer text-3xl flex justify-end pr-4 text-gray-300'
-					onClick={() => {
-						setShowModal(false);
-					}}
-				>
-					x
-				</p>
-				<div className='text-center'>
-					<div className='p-4'>
+			<div className=''>
+	
+				<div className='text-center mt-12 pb-5'>
+					<div className=''>
 						{!isMessageSent && (
-							<h1 className='text-gray-100 font-medium text-xl p-3 tracking-widest text-center'>
-								Send a message...
+							<h1 className='text-red-500 sm:text-gray-100 font-medium text-xl p-3 tracking-widest text-center'>
+								Send a message <span className="text-red-500 font-extrabold animate-pulse">...</span> 
 							</h1>
 						)}
 						{isMessageSent && (
@@ -86,7 +79,7 @@ const ContactForm = ({ setShowModal }) => {
 						<input
 							type='text'
 							placeholder='name'
-							className='contact-form-inputs'
+							className='contact-form-inputs '
 							ref={nameRef}
 						/>
 					</div>

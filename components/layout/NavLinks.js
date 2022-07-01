@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const NavLinks = () => {
 	return (
-		<ul>
+		<ul className="bg-black pb-4 bg-opacity-90">
 			<Link href='/'>
 				<li className='nav-link'>Home</li>
 			</Link>

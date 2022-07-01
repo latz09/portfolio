@@ -4,7 +4,7 @@ import { BsLinkedin } from 'react-icons/bs';
 
 const Sidebar = () => {
 	return (
-		<div className='bg-myblue-300  text-gray-200 tracking-wide text-sm  px-3 py-4 md:grid md:items-center md:gap-4 grid gap-3 justify-center shadow-md border-l-2 border-t-2 border-black'>
+		<div className='bg-gray-900 bg-opacity-50 text-gray-200 tracking-wide text-sm  px-3 py-4 md:grid md:items-center md:gap-4 grid gap-3 justify-center shadow-md border-l-2 border-t-2 border-black'>
 			<div className='hidden md:text-center md:inline'>
 				<Image
 					src={myImage}

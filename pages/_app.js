@@ -3,9 +3,11 @@ import Layout from '../components/layout/Layout';
 
 function MyApp({ Component, pageProps }) {
 	return (
-		<Layout>
-			<Component {...pageProps} />
-		</Layout>
+		<div className="max-w-5xl mx-auto font-description">
+			<Layout>
+				<Component {...pageProps} />
+			</Layout>
+		</div>
 	);
 }
 
