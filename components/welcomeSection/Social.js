@@ -3,7 +3,8 @@ import { BsLinkedin } from 'react-icons/bs';
 
 const Social = () => {
 	return (
-		<ul className='text-white flex space-x-6 justify-center text-2xl'>
+		<div>
+		<ul className='text-white flex space-x-4 text-xl'>
 			<li>
 				<a
 					target='_blank'
@@ -23,6 +24,7 @@ const Social = () => {
 				</a>
 			</li>
 		</ul>
+		</div>
 	);
 };
 
