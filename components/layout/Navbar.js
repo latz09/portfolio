@@ -12,7 +12,7 @@ const NavBar = () => {
 	};
 
 	return (
-		<div className="border-2">
+		<div className="">
 			<div className='flex bg-black justify-between justify-items-center pr-3 text-2xl sm:hidden cursor-pointer p-4'>
 				<Social />
 				<button onClick={toggleMenu} className='text-red-500'>

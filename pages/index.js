@@ -8,7 +8,7 @@ import Greeting from '../components/welcomeSection/Greeting';
 export default function Home() {
 	return (
 		<div id='top-home' className='grid'>
-			<div className='min-h-screen'>
+			<div className='h-screen'>
 				{' '}
 				<div className='grid h-screen items-center'>
 					<Head>
@@ -32,18 +32,21 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-
-			<div className='text-white flex text-4xl space-x-12 justify-center opacity-80 uppercase  pb-6 px-4 h-[32rem] '>
-				<p>P</p>
-				<p>r</p>
-				<p>o</p>
-				<p>j</p>
-				<p>e</p>
-				<p>c</p>
-				<p>t</p>
-				<p>s</p>
+			<div className="h-screen">
+				<div className='text-white flex text-4xl space-x-12 justify-center opacity-80 uppercase  pb-6 px-4'>
+					<p>P</p>
+					<p>r</p>
+					<p>o</p>
+					<p>j</p>
+					<p>e</p>
+					<p>c</p>
+					<p>t</p>
+					<p>s</p>
+				</div>
+				<span className="text-white flex justify-center text-5xl opacity-10">
+				<AiOutlineArrowDown />
+				</span>
 			</div>
-
 			<div className=''>
 				<div className='md:h-screen flex place-items-center place-content-center'>
 					<div id='projects'>
