@@ -6,7 +6,9 @@ import { GoLinkExternal } from 'react-icons/go';
 const ProjectDescription = () => {
 	return (
 		<div className='grid mt-14 text-white  border-opacity-70'>
-			<h1 className="sm:hidden text-center py-8 text-red-500 text-lg border-t md:border-0 border-red-500">Projects</h1>
+			<h1 className='sm:hidden text-center py-8 text-red-500 text-lg border-t md:border-0 border-red-500'>
+				Projects
+			</h1>
 			<div className='grid gap-44 md:flex px-24 sm:p-0 justify-center'>
 				<div className='grid gap-3'>
 					<VideoCardPlayer
@@ -66,7 +68,6 @@ const ProjectDescription = () => {
 						<li>UI-Design</li>
 						<li>SSR</li>
 						<li>Dynamic Routing</li>
-						<li>Serverless</li>
 					</ul>
 					<a
 						href='https://github.com/latz09/paddleBoardEcommerece'

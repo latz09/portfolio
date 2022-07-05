@@ -1,9 +1,10 @@
-import workExperience from '../../data/workExperience';
-import WorkExperienceItem from './WorkExperienceItem';
-import Link from 'next/link';
+import Programming from './ProgrammingContent';
 import HospitalityContent from './HospitalityContent';
+import { useState } from 'react';
 
 const MainContent = () => {
+	const [toggleExperience, setToggleExperience] = useState(false);
+
 	return (
 		<div className='grid gap-4 bg-gray-800 bg-opacity-60'>
 			<div className='prose text-sm tracking-wider leading-5 text-gray-200 text-justify md:text-right p-5 md:border-l'>
@@ -21,9 +22,21 @@ const MainContent = () => {
 					accurately.
 				</p>
 			</div>
-			<h1 className='text-center text-2xl text-gray-200 mt-4'>EXPERIENCE</h1>	
-				
-			<HospitalityContent />
+			<div className='text-gray-200'>
+				<h1 className='text-center text-2xl text-gray-200 mt-4'>EXPERIENCE</h1>
+				{/* <div className='flex space-x-4 justify-center p-4'>
+					<button
+						onClick={() => {
+							setToggleExperience(!toggleExperience);
+						}}
+						className='resume-toggle'
+					>
+						Toggle
+					</button>
+				</div> */}
+				{/* {toggleExperience ? <Programming /> : <HospitalityContent />} */}
+				<HospitalityContent />
+			</div>
 		</div>
 	);
 };

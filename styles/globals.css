@@ -59,4 +59,8 @@ body {
 	.project-tabs {
 		@apply text-2xl bg-slate-600 p-3 rounded shadow-lg cursor-pointer hover:bg-slate-300 hover:text-slate-600 hover:border-2 hover:border-slate-800 text-gray-200 transition ease-in duration-500 border border-gray-200;
 	}
+
+	.resume-toggle {
+		@apply bg-gray-200 py-1 px-4 text-gray-900 font-medium rounded border-2 border-gray-200  hover:border-black
+	}
 }
