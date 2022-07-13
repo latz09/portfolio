@@ -10,7 +10,6 @@ const ProjectItem = ({ src, title, pageLink }) => {
 					alt=''
 					height={400}
 					width={350}
-					layout=''
 					className='cursor-pointer'
 				/>
 			</Link>

@@ -1,6 +1,6 @@
 import { projects } from '../../../data/projects';
 import ProjectItem from './ProjectItem';
-// import x from '../../../public/images/project-screenshots/'
+
 
 const ProjectsContainer = () => {
 	return (

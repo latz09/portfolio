@@ -1,14 +1,13 @@
 import Head from 'next/head';
-import ListOfProjects from '../components/Projects/ListOfProjects';
-import { AiOutlineArrowDown } from 'react-icons/ai';
+
 import ProjectBtn from '../components/utils/ProjectBtn';
-import ScrollUpBtn from '../components/utils/ScrollUpBtn';
+
 import Greeting from '../components/welcomeSection/Greeting';
 import ProjectsContainer from '../components/Projects/homepage/ProjectsContainer';
 
 export default function Home() {
 	return (
-		<>
+		<> 
 			{' '}
 			<Head>
 				<title>Jordan Latz - web developer -</title>

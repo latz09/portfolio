@@ -1,4 +1,4 @@
-import Link from 'next/link';
+
 import Image from 'next/image';
 
 const ProjectPageItem = ({
@@ -9,7 +9,7 @@ const ProjectPageItem = ({
 	pageLink,
 	codeLink,
 }) => {
-	console.log(tools);
+
 	return (
 		<>
 			<div className='grid grid-cols-3 p-3 shadow-sm shadow-gray-900'>
@@ -27,7 +27,7 @@ const ProjectPageItem = ({
 						{title}
 					</span>
 					<span className='text-xs sm:text-base'></span>
-					<div className='flex text-sm sm:text-lg justify-between text-red-500'>
+					<div className='flex text-sm sm:text-lg justify-between md:justify-center md:space-x-8 text-red-500'>
 						<a target='_blank' rel='noreferrer' href={pageLink}>
 							Visit Page
 						</a>
