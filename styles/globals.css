@@ -49,7 +49,7 @@ body {
 	}
 
 	.project-btn {
-		@apply text-gray-200  font-semibold  tracking-wide border-red-500 bg-red-700 px-3 py-4 hover:bg-opacity-70 text-xs sm:text-lg cursor-pointer lg:text-xl;
+		@apply text-gray-200  font-semibold  tracking-wide border-red-500 bg-red-700 px-20 py-4 hover:bg-opacity-70 text-lg sm:text-lg cursor-pointer lg:text-xl;
 	}
 
 	.story-header {

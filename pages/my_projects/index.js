@@ -9,7 +9,7 @@ const MyProjects = () => {
 				<meta name='description' content='Find a great programmer here' />
 			</Head>
 			<div className="mt-20 grid gap-12">
-				<h1 className="text-lg md:text-3xl text-center mb-12">Recent PROJECTS</h1>
+				<h1 className="text-lg sm:text-3xl text-center mb-12 opacity-50">Recent Work</h1>
 				<ProjectPageContainer />
 			</div>
 		</div>

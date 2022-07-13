@@ -12,7 +12,7 @@ const ProjectBtn = () => {
 				<span
 					className='project-btn'
 				>
-					recent projects
+					recent work
 				</span>
 			</Link>
 			;
