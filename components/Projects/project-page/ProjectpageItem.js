@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 
 const ProjectPageItem = ({
@@ -9,10 +8,9 @@ const ProjectPageItem = ({
 	pageLink,
 	codeLink,
 }) => {
-
 	return (
 		<>
-			<div className='grid grid-cols-3 p-3 shadow-sm shadow-gray-900'>
+			<div className='grid grid-cols-3 p-3 pb-8 border-b border-red-500 border-opacity-80'>
 				<a target='_blank' rel='noreferrer' href={pageLink}>
 					<Image
 						src={image}
@@ -27,18 +25,19 @@ const ProjectPageItem = ({
 						{title}
 					</span>
 					<span className='text-xs sm:text-base'></span>
-					<div className='flex text-sm sm:text-lg justify-between md:justify-center md:space-x-8 text-red-500'>
-						<a target='_blank' rel='noreferrer' href={pageLink}>
-							Visit Page
-						</a>
 
-						<a target='_blank' rel='noreferrer' href={codeLink}>
-							Source Code
-						</a>
+					<div className='text-xs sm:text-lg self-end text-center '>
+						<div className='flex text-sm sm:text-lg justify-between md:justify-center md:space-x-8 text-red-500 mb-4'>
+							<a target='_blank' rel='noreferrer' href={pageLink}>
+								Visit Page
+							</a>
+
+							<a target='_blank' rel='noreferrer' href={codeLink}>
+								Source Code
+							</a>
+						</div>
+						<span> {tools}</span>
 					</div>
-					<span className='text-xs sm:text-lg self-end text-center '>
-						{tools}
-					</span>
 				</div>
 			</div>
 		</>

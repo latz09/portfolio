@@ -13,16 +13,16 @@ export default function Home() {
 				<title>Jordan Latz - web developer -</title>
 				<meta name='description' content='Find a great programmer here' />
 			</Head>
-			<div className='grid mt-24 min-h-screen content-center items-center'>
-				<div className='gap-8 grid md:grid-cols-3 items-center justify-items-center text-center '>
+			<div className='grid'>
+				<div className='gap-8 hscr grid md:grid-cols-3 py-48 items-center justify-items-center text-center '>
 					<div className='md:col-span-2'>
 						<Greeting />
 					</div>
-					<div className='justify-self-center mb-32 sm:mb-0'>
+					<div className='justify-self-center'>
 						<ProjectBtn />
 					</div>
 				</div>
-				<div className='mt-40 hidden md:block'>
+				<div className=' hidden md:block'>
 					<ProjectsContainer />
 				</div>
 			</div>
