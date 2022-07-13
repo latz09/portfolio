@@ -16,12 +16,7 @@ const WorkExperienceItem = ({
 					<p className="text-xs">{date}</p>
 				</div>
 			</div>
-			<div className='grid gap-2 px-8 text-sm py-4 content-center items-center'>
-				<li>{dutyOne}</li>
-				<li>{dutyTwo}</li>
-				<li>{dutyThree}</li>
-				<li>{dutyFour}</li>
-			</div>
+		
 		</div>
 	);
 };

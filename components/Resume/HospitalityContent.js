@@ -4,18 +4,19 @@ import workExperience from '../../data/workExperience';
 const HospitalityContent = () => {
 	return (
 		<div>
-            {/* <h1 className="text-center text-2xl border-b pb-2 mb-8">Experience as Chef</h1> */}
+			{/* <h1 className="text-center text-2xl border-b pb-2 mb-8">Experience as Chef</h1> */}
 			<div className='grid gap-4 px-2'>
+				<ul className="text-center space-y-3 mt-4">
+					<li>https://movie-connection.vercel.app/</li>
+					<li>https://paddle-board-store.vercel.app/</li>
+					<li>https://easy-globle.vercel.app/</li>
+				</ul>
 				<ul>
 					{workExperience.map((item) => (
 						<div key={item.date}>
 							<WorkExperienceItem
 								title={item.title}
 								employer={item.employer}
-								dutyOne={item.dutyOne}
-								dutyTwo={item.dutyTwo}
-								dutyThree={item.dutyThree}
-								dutyFour={item.dutyFour}
 								date={item.date}
 							/>
 						</div>

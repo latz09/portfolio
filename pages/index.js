@@ -13,7 +13,7 @@ export default function Home() {
 				<title>Jordan Latz - web developer -</title>
 				<meta name='description' content='Find a great programmer here' />
 			</Head>
-			<div className='grid min-h-screen content-center items-center'>
+			<div className='grid mt-24 min-h-screen content-center items-center'>
 				<div className='gap-8 grid md:grid-cols-3 items-center justify-items-center text-center '>
 					<div className='md:col-span-2'>
 						<Greeting />
