@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import { useEffect, useState } from 'react';
 
 const ProjectBtn = () => {
@@ -12,17 +14,21 @@ const ProjectBtn = () => {
 		}, 7500);
 	}, []);
 
-	
 	return (
-		<div>
-			<a href='#projects'>
-				<button className={`${pulse ? 'animate-pulse project-btn transition ease-in duration-500 ' : 'project-btn transition ease-in duration-500 '}`}>
+		<>
+			<Link href={'/my_projects'}>
+				<a
+					className={`${
+						pulse
+							? 'animate-pulse project-btn transition ease-in duration-500 '
+							: 'project-btn transition ease-in duration-500 '
+					}`}
+				>
 					recent projects
-				</button>
-				;
-			</a>
+				</a>
+			</Link>
 			;
-		</div>
+		</>
 	);
 };
 

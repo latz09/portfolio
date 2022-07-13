@@ -2,13 +2,13 @@ module.exports = {
 	mode: 'jit',
 	content: [
 		'./pages/**/*.{js,ts,jsx,tsx}',
-		'./components/**/*.{js,ts,jsx,tsx}', 
+		'./components/**/*.{js,ts,jsx,tsx}',
 	],
 	theme: {
 		extend: {
 			fontFamily: {
-				'logo' : ['Righteous', 'cursive'],
-				'description' : ['Roboto Mono', 'monospace'],
+				logo: ['Righteous', 'cursive'],
+				description: ['Roboto Mono', 'monospace'],
 			},
 			colors: {
 				myblue: {
@@ -17,11 +17,8 @@ module.exports = {
 					100: '#CBE7ED',
 					50: '#E2EFF2',
 				},
-			}
+			},
 		},
 	},
-	plugins: [
-		require('@tailwindcss/typography'),
-		 require('@tailwindcss/forms'),
-	],
+	plugins: [require('@tailwindcss/typography'), require('@tailwindcss/forms')],
 };

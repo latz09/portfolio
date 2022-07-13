@@ -1,6 +1,6 @@
 import NavBar from './Navbar';
 
-const Layout = ({ children }) => {
+const Layout = ({ children }) => { 
 	return (
 		<div className='font-description tracking-wide relative'>
 			<div className='sticky top-0 z-50'>
