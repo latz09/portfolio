@@ -11,7 +11,7 @@ export const projects = [
     {
         title: 'Movie Connection',
         tools: 'React, NextJS, TailwindCSS',
-        highlights: 'RESTful API, mobile-first, fully-responsive, search capabiliteis',
+        highlights: 'RESTful API, mobile-first, fully-responsive, search',
         pageLink: 'https://movie-connection.vercel.app/',
         codeLink: 'https://github.com/latz09/movie-connection',
         image: '/images/project-screenshots/movie-database.png',
@@ -27,7 +27,7 @@ export const projects = [
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus viverra accumsan in nisl nisi.'
     },
     {
-        title: 'The Piza Shop',
+        title: 'The Pizza Shop',
         tools: 'React, NextJS, TailwindCSS',
         highlights: 'mobile-first, fully-responsive',
         pageLink: 'https://west-saint-paul-pizza-shop.vercel.app/',
